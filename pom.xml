@@ -19,6 +19,7 @@
     <module>resty-mail</module>
     <module>resty-captcha</module>
     <module>resty-oauth</module>
+    <module>resty-event</module>
     <module>resty-example</module>
   </modules>
   <name>resty</name>
