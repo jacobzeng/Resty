@@ -160,7 +160,7 @@ public class Sessions {
 
   public SessionDatas update(String username, String sessionKey, Session session) {
     //获取该用户名下的所有session
-    SessionDatas sessionDatas = get(sessionKey);
+    SessionDatas sessionDatas = sessions.get(username);
     Map<String, SessionData> sessionMetadatas;
     SessionDatas updatedSessionDatas;
     SessionData sessionData;
